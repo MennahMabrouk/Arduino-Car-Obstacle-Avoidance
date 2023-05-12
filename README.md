@@ -6,18 +6,16 @@ This project is designed to create an obstacle avoidance system for an Arduino c
 <img src="https://github.com/MennahMabrouk/Arduino-Car-Obstacle-Avoidance/assets/101124995/ae86e04b-ccd2-4353-b41b-00c2fb017533" width="300" height="400">
 
 ### Hardware Requirements
-<ls>
-Arduino Uno
-H-bridge motor driver module
-Ultrasonic sensor 
-TSOP sensor for remote control
-Four DC motors
-Four wheels
-Buzzer
-Breadboard
-Jumper wires
-Optional: Servo motor
-  </ls>
+<p Arduino Uno <br>
+H-bridge motor driver module <br>
+Ultrasonic sensor <br>
+TSOP sensor for remote control <br>
+Four DC motors <br>
+Four wheels <br>
+Buzzer <br> 
+Breadboard <br>
+Jumper wires <br>
+Optional: Servo motor </p>
 
 ### Software Requirements
 <ls>
