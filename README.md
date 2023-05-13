@@ -18,7 +18,9 @@ This project is designed to create an obstacle avoidance system for an Arduino c
 💻 Jumper wires <br>
 💻 Optional: Servo motor </p>
 
-### Software Requirements
+### Software Requirements 
+![C](https://img.shields.io/badge/C-05122A?style=for-the-badge&logo=c&logoColor=white)&nbsp;
+![assembly ](https://img.shields.io/badge/assembly-05122A?style=for-the-badge&logo=c&logoColor=white)&nbsp;
 <p>
 👩‍💻 Arduino IDE <br>
 👩‍💻 Microchip Studio </p>
