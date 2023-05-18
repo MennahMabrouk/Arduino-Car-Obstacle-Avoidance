@@ -46,3 +46,7 @@ This project is designed to create an obstacle avoidance system for an Arduino c
 ```diff purple
 @@ Modify on the Project and Challenge Yourself  @@
 ```
+
+### How to install any Missing Library 
+![Screenshot 2023-05-18 081404](https://github.com/MennahMabrouk/Arduino-Car-Obstacle-Avoidance/assets/101124995/aaba9a07-182e-48a4-9ffc-274bb84281f9)
+
