@@ -46,6 +46,7 @@ This project is designed to create an obstacle avoidance system for an Arduino c
 ```diff purple
 @@ Modify on the Project and Challenge Yourself  @@
 ```
+*************
 
 ### How to install any Missing Library 
 
