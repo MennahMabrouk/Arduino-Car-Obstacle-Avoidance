@@ -48,7 +48,7 @@ This project is designed to create an obstacle avoidance system for an Arduino c
 ```
 
 ### How to install any Missing Library 
-<img src="https://github.com/MennahMabrouk/Arduino-Car-Obstacle-Avoidance/assets/101124995/b8b7f868-09b0-44c6-970e-95f7038a492d" width="600" height="400">
+<img src="https://github.com/MennahMabrouk/Arduino-Car-Obstacle-Avoidance/assets/101124995/b8b7f868-09b0-44c6-970e-95f7038a492d" width="300" height="400">
 <img src="https://github.com/MennahMabrouk/Arduino-Car-Obstacle-Avoidance/assets/101124995/9a4550bc-91e7-4f0f-8e2a-0ed5de2a7a52" width="600" height="400">
 <img src="https://github.com/MennahMabrouk/Arduino-Car-Obstacle-Avoidance/assets/101124995/aaba9a07-182e-48a4-9ffc-274bb84281f9" width="600" height="400">
 
