@@ -203,16 +203,4 @@ abs:
 abs_end:
     ret
 
-; Interrupt service routines (if required)
-; Add ISR routines here if you are using any interrupts
-
-; Helper functions (if required)
-; Add any additional helper functions here
-
-; Define constant data (if required)
-; Add any additional constant data definitions here
-
-; Define variables (if required)
-; Add any additional variable definitions here
-
 .end
