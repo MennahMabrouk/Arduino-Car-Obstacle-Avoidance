@@ -52,18 +52,18 @@ main:
     ; Initialize NewPing instance
     ldi r16, hi8(mySensor)
     ldi r17, lo8(mySensor)
-    lds r18, ping_cm_ptr
+    lds r18, NewPing_ping_cm_ptr
     call r18
 
     ; Initialize IRrecv instance
     ldi r16, hi8(irReceiver)
     ldi r17, lo8(irReceiver)
-    lds r18, enableIRIn_ptr
+    lds r18, IRrecv_enableIRIn_ptr
     call r18
 
 loop:
     ; Check for ultrasonic distance
-    lds r18, ping_cm_ptr
+    lds r18, NewPing_ping_cm_ptr
     call r18
 
     ; Print distance value
@@ -74,7 +74,7 @@ loop:
     ; Print the string using serial communication
 
     ; Check for infrared remote signals
-    lds r18, decode_ptr
+    lds r18, IRrecv_decode_ptr
     call r18
 
     tst r24 ; Check if IR signal received
@@ -179,10 +179,10 @@ left_motor_forward:
 set_motor_speed:
     ; Set motor speed using PWM
     mov r16, r24
-    call abs ; Calculate absolute value of the right motor speed
+    call abs_value ; Calculate absolute value of the right motor speed
     mov r24, r16
     mov r16, r25
-    call abs ; Calculate absolute value of the left motor speed
+    call abs_value ; Calculate absolute value of the left motor speed
     mov r25, r16
 
     ; Set PWM duty cycle
@@ -196,11 +196,12 @@ set_motor_speed:
     pop r16
     ret
 
-abs:
+value:
     tst r16 ; Check if the input value is negative
     brpl abs_end
     neg r16 ; Negate the value
-abs_end:
+end:
     ret
 
 .end
+
