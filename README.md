@@ -65,4 +65,9 @@ This project is designed to create an obstacle avoidance system for an Arduino c
 
 <img src="https://github.com/MennahMabrouk/Arduino-Car-Obstacle-Avoidance/assets/101124995/aaba9a07-182e-48a4-9ffc-274bb84281f9" width="600" height="400">
 
-
+*************
+### For Assembly
+<p>
+Try take C Code Snippet then convert it line by line manually even if there is alot of error after each snip try to fix it's errors then continue block by block <br>
+Maybe you would need some help ---> serach in google for (e.g. TSOP Assembly code) and so on <br>
+  </p>
